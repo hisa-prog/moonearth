@@ -1,0 +1,41 @@
+{
+  "name": "init-projects",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "analyze": "cross-env ANALYZE=true next build",
+    "dev": "next dev --port 3003",
+    "build": "next build",
+    "start": "next start --port 3002",
+    "prettier": "prettier ./ --write",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@loadable/component": "^5.15.2",
+    "@next/bundle-analyzer": "^12.2.5",
+    "@walletconnect/web3-provider": "^1.7.8",
+    "next": "12.0.8",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-slick": "^0.29.0",
+    "sharp": "^0.30.7",
+    "swiper": "^8.2.6",
+    "web3": "^1.7.4",
+    "web3-utils": "^1.7.4"
+  },
+  "devDependencies": {
+    "@babylonjs/core": "^5.17.1",
+    "@babylonjs/loaders": "^5.17.1",
+    "@types/loadable__component": "^5.13.4",
+    "@types/react": "17.0.38",
+    "@types/react-slick": "^0.23.10",
+    "autoprefixer": "^10.4.2",
+    "cross-env": "^7.0.3",
+    "eslint": "8.7.0",
+    "eslint-config-next": "12.0.8",
+    "postcss": "^8.4.5",
+    "prettier": "2.7.1",
+    "tailwindcss": "^3.0.15",
+    "typescript": "4.5.4"
+  }
+}
